@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slider-img {
+    position: relative;
+    width: 600px;
+    height: 750px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.fotos-slide {
+    width: 2400px;
+    display: flex;
+}
+
+.foto {
+    width: 600px;
+    transition: 0.5s;
+}
+
+.btnDireita, .btnEsq {
+    position: absolute;
+    width: 60px;
+    top: 0;
+    height: 300px;
+    font-size: 80px;
+    line-height: 300px;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.btnDireita:hover, .btnEsq:hover {
+    color: #9b9696;
+}
+
+.btnEsq {
+    left: 10px;
+}
+
+.btnDireita {
+    right: 20px;
+}
